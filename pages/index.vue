@@ -5,14 +5,14 @@
   >
     <div class="container mx-auto px-6 md:px-12 lg:px-20">
       <div class="max-w-2xl text-left">
-        <h1 class="text-4xl md:text-5xl font-semibold leading-tight text-gray-900">
+        <h1 class="font-handwritten text-5xl md:text-6xl font-semibold leading-tight text-gray-900">
           Naturellement
-          <span class="text-orange-600"> Purs, </span>
+          <span class="font-handwritten text-orange-600"> Purs, </span>
           <br />
-          <span class="text-green-700"> Soigneus</span>ement Façonnés
+          <span class="font-handwritten text-green-700"> Soigneus</span>ement Façonnés
         </h1>
 
-        <p class="mt-4 text-lg text-gray-700">
+        <p class="font-sans mt-4 text-lg text-gray-700">
           Découvrez notre collection de savons bio faits main — Offrez à votre peau ce que la nature
           a de meilleur.
         </p>
@@ -20,10 +20,44 @@
         <div class="mt-6">
           <NuxtLink
             to="/boutique"
-            class="inline-block bg-purple-100 text-purple-700 border border-purple-400 hover:bg-purple-200 hover:text-purple-900 transition font-medium py-2 px-6 rounded-full"
+            class="font-sans bg-gray-200 text-gray-800 border border-gray-300 hover:bg-gray-200 hover:text-black transition font-medium py-2 px-6 rounded-full"
           >
             Découvrir la boutique
           </NuxtLink>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white py-12">
+    <div class="container mx-auto px-6 lg:px-20">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center">
+        <!-- Item 1 -->
+        <div class="flex flex-col items-center">
+          <img src="/icons/delivery.png" alt="Livraison Rapide" class="h-10 mb-3" />
+          <h3 class="text-lg font-semibold text-gray-800">Livraison Rapide</h3>
+          <p class="text-sm text-gray-600">Expédition éclair</p>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="flex flex-col items-center">
+          <img src="/icons/payment.png" alt="Paiement Sécurisé" class="h-10 mb-3" />
+          <h3 class="text-lg font-semibold text-gray-800">Paiement Sécurisé</h3>
+          <p class="text-sm text-gray-600">Achetez en toute confiance</p>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="flex flex-col items-center">
+          <img src="/icons/refund.png" alt="Satisfait ou Remboursé" class="h-10 mb-3" />
+          <h3 class="text-lg font-semibold text-gray-800">Satisfait ou Remboursé</h3>
+          <p class="text-sm text-gray-600">Garantie 100% remboursé</p>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="flex flex-col items-center">
+          <img src="/icons/support.png" alt="Assistance 24h/7j" class="h-10 mb-3" />
+          <h3 class="text-lg font-semibold text-gray-800">Assistance 24h/7j</h3>
+          <p class="text-sm text-gray-600">Toujours là pour vous</p>
         </div>
       </div>
     </div>

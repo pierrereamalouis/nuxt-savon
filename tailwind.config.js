@@ -2,8 +2,12 @@
 export default {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['"DM Sans"', "sans-serif"],
+        handwritten: ['"Shadows Into Light"', "cursive"],
+      },
+    },
   },
   plugins: [],
-}
-
+};

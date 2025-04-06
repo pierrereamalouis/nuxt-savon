@@ -13,13 +13,15 @@
         <nav class="flex-grow">
           <ul class="flex justify-center space-x-8">
             <li>
-              <NuxtLink to="/" class="text-gray-700 hover:text-gray-900">Home</NuxtLink>
+              <NuxtLink to="/" class="text-gray-700 hover:text-gray-900">Accueil</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/about" class="text-gray-700 hover:text-gray-900">About</NuxtLink>
+              <NuxtLink to="/about" class="text-gray-700 hover:text-gray-900">À propos</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/products" class="text-gray-700 hover:text-gray-900">Products</NuxtLink>
+              <NuxtLink to="/products" class="text-gray-700 hover:text-gray-900"
+                >Nos Produits</NuxtLink
+              >
             </li>
           </ul>
         </nav>
@@ -128,6 +130,70 @@
       <div class="mt-8 text-center text-gray-500 text-xs">
         &copy; {{ new Date().getFullYear() }} Votre Entreprise. Tous droits réservés.
       </div>
+      <!-- <div>
+        Icons made by
+        <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect"
+          >Pixel perfect</a
+        >
+        from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      </div>
+      <div>
+        Icons made by
+        <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from
+        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      </div>
+      <div>
+        Icons made by
+        <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from
+        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      </div>
+      <div>
+        Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
+        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      </div>
+      <div>
+        Icons made by
+        <a href="https://www.flaticon.com/authors/ilham-fitrotul-hayat" title="Ilham Fitrotul Hayat"
+          >Ilham Fitrotul Hayat</a
+        >
+        from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      </div>
+      <div>
+        Icons made by
+        <a href="https://www.flaticon.com/authors/hilmy-abiyyu-a" title="Hilmy Abiyyu A."
+          >Hilmy Abiyyu A.</a
+        >
+        from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      </div>
+      <div>
+        Icons made by
+        <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a> from
+        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      </div>
+      <div>
+        Icons made by
+        <a href="https://www.flaticon.com/authors/gungyoga04" title="gungyoga04">gungyoga04</a> from
+        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      </div>
+      <div>
+        Icons made by
+        <a href="https://www.flaticon.com/authors/zero-wing" title="zero_wing">zero_wing</a> from
+        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      </div>
+      <div>
+        Icons made by
+        <a href="https://www.flaticon.com/authors/aziz-muttaqin" title="Aziz Muttaqin"
+          >Aziz Muttaqin</a
+        >
+        from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      </div>
+      <div>
+        Icons made by
+        <a href="https://www.flaticon.com/authors/egorpolyakov" title="egorpolyakov"
+          >egorpolyakov</a
+        >
+        from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      </div> -->
     </footer>
   </div>
 </template>
