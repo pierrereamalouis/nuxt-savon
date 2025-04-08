@@ -7,7 +7,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy:static": "./deploy-static.sh",
+    "deploy:ssr": "./deploy-ssr.sh"
   },
   "dependencies": {
     "@nuxt/content": "3.4.0",

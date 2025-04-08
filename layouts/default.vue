@@ -5,7 +5,7 @@
         <div class="flex-shrink-0">
           <NuxtLink to="/" class="flex items-center space-x-3">
             <img src="/img/logo.png" alt="Les Mains Moussantes" class="h-14 w-auto" />
-            <span class="font-serif text-lg font-semibold text-gray-800 whitespace-nowrap">
+            <span class="font-sans text-lg font-semibold text-gray-800 whitespace-nowrap">
               Les Mains Moussantes
             </span>
           </NuxtLink>
@@ -13,13 +13,13 @@
         <nav class="flex-grow">
           <ul class="flex justify-center space-x-8">
             <li>
-              <NuxtLink to="/" class="text-gray-700 hover:text-gray-900">Accueil</NuxtLink>
+              <NuxtLink to="/" class="font-sans text-gray-700 hover:text-gray-900">Accueil</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/about" class="text-gray-700 hover:text-gray-900">À propos</NuxtLink>
+              <NuxtLink to="/about" class="font-sans text-gray-700 hover:text-gray-900">À propos</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/products" class="text-gray-700 hover:text-gray-900"
+              <NuxtLink to="/products" class="font-sans text-gray-700 hover:text-gray-900"
                 >Nos Produits</NuxtLink
               >
             </li>
