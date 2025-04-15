@@ -1,9 +1,9 @@
 <template>
-  <section class="container relative min-h-[720px] flex items-center">
+  <section class="w-[100%] relative h-[75vh] flex items-center">
     <img
-      src="/img/naturally-pure-soaps-hero.png"
+      src="/img/naturally-pure-soaps-cover.png"
       alt="les mains moussantes"
-      class="container object-cover"
+      class="w-[100%] h-[75vh] object-cover"
     />
     <div class="absolute mx-auto px-6 md:px-12 lg:px-20">
       <div class="max-w-2xl text-left">
