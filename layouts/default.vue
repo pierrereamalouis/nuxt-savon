@@ -87,7 +87,7 @@
       <NuxtPage />
     </main>
 
-    <footer class="bg-gray-100 py-8 px-6 mt-8">
+    <footer class="bg-gray-300 py-8 px-6">
       <div
         class="container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 text-gray-600"
       >
@@ -128,7 +128,7 @@
         </div>
       </div>
       <div class="mt-8 text-center text-gray-500 text-xs">
-        &copy; {{ new Date().getFullYear() }} Votre Entreprise. Tous droits réservés.
+        &copy; {{ new Date().getFullYear() }} Les Mains Moussantes. Tous droits réservés.
       </div>
       <!-- <div>
         Icons made by

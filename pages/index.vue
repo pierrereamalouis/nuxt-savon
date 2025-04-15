@@ -1,9 +1,11 @@
 <template>
-  <section
-    class="relative bg-cover bg-center bg-no-repeat min-h-[720px] flex items-center"
-    style="background-image: url('/img/naturally-pure-soaps-hero.png')"
-  >
-    <div class="container mx-auto px-6 md:px-12 lg:px-20">
+  <section class="container relative min-h-[720px] flex items-center">
+    <img
+      src="/img/naturally-pure-soaps-hero.png"
+      alt="les mains moussantes"
+      class="container object-cover"
+    />
+    <div class="absolute mx-auto px-6 md:px-12 lg:px-20">
       <div class="max-w-2xl text-left">
         <h1 class="font-handwritten text-5xl md:text-6xl font-semibold leading-tight text-gray-900">
           Naturellement
@@ -58,6 +60,112 @@
           <img src="/icons/support.png" alt="Assistance 24h/7j" class="h-10 mb-3" />
           <h3 class="text-lg font-semibold text-gray-800">Assistance 24h/7j</h3>
           <p class="text-sm text-gray-600">Toujours là pour vous</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-100 py-16 px-6 md:px-12">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Prix & Promotion</h2>
+
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <!-- Top Text & Image -->
+        <div class="flex flex-col gap-6">
+          <div class="flex items-center gap-3">
+            <span class="text-xl">✨</span>
+            <p class="text-lg text-gray-800">
+              Notre produit est offert à <span class="font-semibold">$8.50</span> pour 100 grammes
+            </p>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <p class="text-lg text-gray-800">10% de rabais lors de votre commande en ligne</p>
+            <span class="text-xl">✨</span>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <span class="text-xl">✨</span>
+            <p class="text-lg text-gray-800">
+              Recevez 1 barre gratuite à l’achat de 8 barres<span class="text-sm text-gray-500"
+                >*</span
+              >
+            </p>
+          </div>
+
+          <p class="text-sm text-gray-500 mt-4">*Pour les membres du programme de fidélité</p>
+        </div>
+
+        <!-- Images (stacked on mobile) -->
+        <div class="grid grid-cols-2 gap-4">
+          <img
+            src="/img/soap-promo-1.jpg"
+            alt="Savon 1"
+            class="rounded-lg shadow-md object-cover h-64 w-full"
+          />
+          <img
+            src="/img/soap-promo-2.jpg"
+            alt="Savon 2"
+            class="rounded-lg shadow-md object-cover h-64 w-full"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white py-16 px-6 md:px-12">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div class="relative bg-green-100 p-6 rounded-lg shadow-md overflow-hidden">
+          <h3 class="text-xl font-semibold mb-4">100% Ingrédients Naturels</h3>
+          <ul class="text-sm text-gray-700 space-y-1 mb-4">
+            <li>Huile de coco</li>
+            <li>Glycérine</li>
+            <li>Vitamine E</li>
+            <li>Miel</li>
+          </ul>
+          <NuxtLink to="/boutique" class="text-sm font-medium text-gray-800 hover:underline">
+            Voir la boutique
+          </NuxtLink>
+          <!-- Product Image -->
+          <img
+            src="/img/soap-1.jpg"
+            alt="Savon Naturel"
+            class="absolute right-2 bottom-2 w-28 h-auto object-contain z-10"
+          />
+        </div>
+
+        <!-- Card 2 -->
+        <div class="relative bg-rose-50 p-6 rounded-lg shadow-md overflow-hidden">
+          <h3 class="text-xl font-semibold mb-4">Sans cruauté & Écoresponsable</h3>
+          <p class="text-sm text-gray-700 mb-4">
+            Des produits respectueux de votre peau et de la planète.
+          </p>
+          <NuxtLink to="/boutique" class="text-sm font-medium text-gray-800 hover:underline">
+            Voir la boutique
+          </NuxtLink>
+          <img
+            src="/img/soap-2.jpg"
+            alt="Feuilles naturelles"
+            class="absolute right-2 bottom-2 w-28 h-auto object-contain z-10"
+          />
+        </div>
+
+        <!-- Card 3 -->
+        <div class="relative bg-sky-100 p-6 rounded-lg shadow-md overflow-hidden">
+          <h3 class="text-xl font-semibold mb-4">Édition Limitée</h3>
+          <p class="text-sm text-gray-700 mb-4">
+            Des créations uniques, disponibles pour une durée limitée seulement.
+          </p>
+          <NuxtLink to="/boutique" class="text-sm font-medium text-gray-800 hover:underline">
+            Voir la boutique
+          </NuxtLink>
+          <img
+            src="/img/soap-3.jpg"
+            alt="Savon exclusif"
+            class="absolute right-2 bottom-2 w-28 h-auto object-contain z-10"
+          />
         </div>
       </div>
     </div>
@@ -177,17 +285,17 @@
           </NuxtLink>
         </div>
       </div>
-      <div class="text-center mt-8">
+      <!-- <div class="text-center mt-8">
         <NuxtLink
           to="/products"
           class="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-full"
           >Voir Toute la Collection</NuxtLink
         >
-      </div>
+      </div> -->
     </div>
   </section>
 
-  <section class="py-12 bg-gray-50">
+  <!-- <section class="py-12 bg-gray-50">
     <div class="container mx-auto text-center">
       <h2 class="text-2xl font-semibold text-gray-800 mb-6">Explorez Nos Catégories</h2>
       <div class="space-x-4">
@@ -213,7 +321,7 @@
         >
       </div>
     </div>
-  </section>
+  </section> -->
 </template>
 
 <script setup lang="ts"></script>
