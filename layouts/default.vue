@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen flex flex-col">
-    <header class="bg-white py-4 px-6 shadow-md">
+    <header class="bg-white py-4 px-6 shadow-md border-b-gray-200 border-b">
       <div class="container mx-auto flex items-center justify-between">
         <div class="flex-shrink-0">
           <NuxtLink to="/" class="flex items-center space-x-3">
@@ -13,14 +13,18 @@
         <nav class="flex-grow">
           <ul class="flex justify-center space-x-8">
             <li>
-              <NuxtLink to="/" class="font-sans text-gray-700 hover:text-gray-900">Accueil</NuxtLink>
+              <NuxtLink to="/" class="font-sans text-gray-700 hover:text-gray-900"
+                >Accueil</NuxtLink
+              >
             </li>
             <li>
-              <NuxtLink to="/about" class="font-sans text-gray-700 hover:text-gray-900">À propos</NuxtLink>
+              <NuxtLink to="/a-propos" class="font-sans text-gray-700 hover:text-gray-900"
+                >À propos</NuxtLink
+              >
             </li>
             <li>
-              <NuxtLink to="/products" class="font-sans text-gray-700 hover:text-gray-900"
-                >Nos Produits</NuxtLink
+              <NuxtLink to="/produit" class="font-sans text-gray-700 hover:text-gray-900"
+                >Notre Produit</NuxtLink
               >
             </li>
           </ul>

@@ -125,12 +125,12 @@
             <li>Vitamine E</li>
             <li>Miel</li>
           </ul>
-          <NuxtLink to="/boutique" class="text-sm font-medium text-gray-800 hover:underline">
+          <NuxtLink to="/produit" class="text-sm font-medium text-gray-800 hover:underline">
             Voir la boutique
           </NuxtLink>
           <!-- Product Image -->
           <img
-            src="/img/soap-1.jpg"
+            src="/img/ingredients_naturel.png"
             alt="Savon Naturel"
             class="absolute right-2 bottom-2 w-28 h-auto object-contain z-10"
           />
@@ -142,11 +142,11 @@
           <p class="text-sm text-gray-700 mb-4">
             Des produits respectueux de votre peau et de la planète.
           </p>
-          <NuxtLink to="/boutique" class="text-sm font-medium text-gray-800 hover:underline">
+          <NuxtLink to="/produit" class="text-sm font-medium text-gray-800 hover:underline">
             Voir la boutique
           </NuxtLink>
           <img
-            src="/img/soap-2.jpg"
+            src="/img/ecoresponsable.png"
             alt="Feuilles naturelles"
             class="absolute right-2 bottom-2 w-28 h-auto object-contain z-10"
           />
@@ -158,11 +158,11 @@
           <p class="text-sm text-gray-700 mb-4">
             Des créations uniques, disponibles pour une durée limitée seulement.
           </p>
-          <NuxtLink to="/boutique" class="text-sm font-medium text-gray-800 hover:underline">
+          <NuxtLink to="/produit" class="text-sm font-medium text-gray-800 hover:underline">
             Voir la boutique
           </NuxtLink>
           <img
-            src="/img/soap-3.jpg"
+            src="/img/edition_limite.png"
             alt="Savon exclusif"
             class="absolute right-2 bottom-2 w-28 h-auto object-contain z-10"
           />
@@ -177,20 +177,7 @@
         <div
           class="w-16 h-16 mx-auto bg-green-200 text-green-600 rounded-full flex items-center justify-center mb-4"
         >
-          <svg
-            class="w-8 h-8"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-            ></path>
-          </svg>
+          <img src="/icons/ingredients.png" alt="" />
         </div>
         <h3 class="text-xl font-semibold text-gray-700 mb-2">Ingrédients Naturels</h3>
         <p class="text-gray-500">Des ingrédients purs pour une peau saine.</p>
@@ -199,20 +186,7 @@
         <div
           class="w-16 h-16 mx-auto bg-blue-200 text-blue-600 rounded-full flex items-center justify-center mb-4"
         >
-          <svg
-            class="w-8 h-8"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M17 13l-5 5m0-5l5 5m2-2l-5-5m5 5l-5-5"
-            ></path>
-          </svg>
+          <img src="/icons/hand.png" alt="" />
         </div>
         <h3 class="text-xl font-semibold text-gray-700 mb-2">Fabrication Artisanale</h3>
         <p class="text-gray-500">Savons faits à la main avec soin.</p>
@@ -221,20 +195,7 @@
         <div
           class="w-16 h-16 mx-auto bg-yellow-200 text-yellow-600 rounded-full flex items-center justify-center mb-4"
         >
-          <svg
-            class="w-8 h-8"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M15 5l-1.5 1.5M19 11l-6 6m-2-2L15 7M3 13l4-4m0 0L19 7m-6 6l-4-4m4 4L3 13"
-            ></path>
-          </svg>
+          <img src="/icons/dry-skin.png" alt="" />
         </div>
         <h3 class="text-xl font-semibold text-gray-700 mb-2">Respectueux de la Peau</h3>
         <p class="text-gray-500">Formules douces pour tous les types de peau.</p>
@@ -249,7 +210,7 @@
       </h2>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
         <div class="bg-gray-100 rounded-md shadow-md overflow-hidden">
-          <NuxtLink to="/products/savon-1">
+          <NuxtLink to="/produit">
             <img src="/img/soap-1.jpg" alt="Savon 1" class="w-full h-48 object-cover" />
             <div class="p-4">
               <h3 class="text-lg font-semibold text-gray-700 mb-2">Savon Douceur</h3>
@@ -258,7 +219,7 @@
           </NuxtLink>
         </div>
         <div class="bg-gray-100 rounded-md shadow-md overflow-hidden">
-          <NuxtLink to="/products/savon-2">
+          <NuxtLink to="/produit">
             <img src="/img/soap-2.jpg" alt="Savon 2" class="w-full h-48 object-cover" />
             <div class="p-4">
               <h3 class="text-lg font-semibold text-gray-700 mb-2">Savon Exfoliant</h3>
@@ -267,7 +228,7 @@
           </NuxtLink>
         </div>
         <div class="bg-gray-100 rounded-md shadow-md overflow-hidden">
-          <NuxtLink to="/products/savon-3">
+          <NuxtLink to="/produit">
             <img src="/img/soap-3.jpg" alt="Savon 3" class="w-full h-48 object-cover" />
             <div class="p-4">
               <h3 class="text-lg font-semibold text-gray-700 mb-2">Savon Parfumé</h3>
@@ -276,7 +237,7 @@
           </NuxtLink>
         </div>
         <div class="bg-gray-100 rounded-md shadow-md overflow-hidden">
-          <NuxtLink to="/products/savon-4">
+          <NuxtLink to="/produit">
             <img src="/img/soap-4.jpg" alt="Savon 4" class="w-full h-48 object-cover" />
             <div class="p-4">
               <h3 class="text-lg font-semibold text-gray-700 mb-2">Savon Hydratant</h3>
